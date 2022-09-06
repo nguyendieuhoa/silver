@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/femme.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>Femme</title>
+</head>
+
+<body>
+    <!-- nav bar -->
+    <nav>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand me-3" href="index.html"><img src="img/logo.png" height="80px" alt="logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto ms-5 mb-2 mb-lg-0">
+                        <li class="nav-item me-4">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item dropdown ">
+                            <a class="nav-link dropdown-toggle" href="produits.html" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Nos Produits
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="produits.html">Voir toutes les gammes</a></li>
+                                <li><a class="dropdown-item" href="femme.html" action>Femme </a>
+                                </li>
+                                <li><a class="dropdown-item" href="homme.html" action>Homme </a></li>
+                                <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="nouveaute.html">Nouveautés</a></li>
+                    </ul>
+
+                    <li class="nav-item  ">
+                        <a class="nav-link" href="point-de-vente.html">Points de vente</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="reservation.html">Réservation</a>
+                    </li>
+
+                    <li class="nav-item ">
+                        <a class="nav-link" href="avis.html">Avis</a>
+                    </li>
+
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            La Boutique
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="qui-sommes-nous.html">Qui sommes-nous</a></li>
+                            <li><a class="dropdown-item" href="contact.html" action>Contact </a>
+                            </li>
+                            <li><a class="dropdown-item" href="recrutement.html" action>Recrutement </a></li>
+                            <hr class="dropdown-divider">
+
+                            <li><a class="dropdown-item" href="evenements.html">Evénements</a></li>
+                            <li><a class="dropdown-item" href="presse.html">Presse</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="actualites.html">Actualités</a>
+                    </li>
+                    </li>
+                    </ul>
+
+                    <div class="nav-icon">
+                        <button class="btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <button class="btn" type="button"><i class="fa-solid fa-user"></i></button>
+                        <button class="btn" type="button"><i class="fa-solid fa-basket-shopping"></i></button>
+                        <button class="btn" type="button"> Français</i><i
+                                class="fa-solid fa-caret-down ms-1"></i></button>
+                    </div>
+                </div>
+        </nav>
+    </nav>
+
+    <!-- banner -->
+    <header>
+        <div class="container ">
+            <h6 class="py-5 border-bottom">Home / Nos Produits / Femme</h6>
+        </div>
+    </header>
+
+    <!-- side bar -->
+    <div class="container mt-5">
+        <div class="row produit">
+            <div class="col-lg-3">
+                <ul class="list-group">
+                    <li class="list-group-item categories" aria-current="true">Femme </li>
+
+                    </li>
+                    <li class="list-group-item"><a href="">Tous les produits</a></li>
+
+                    <li class="list-group-item"><a href="">Robes</a> </li>
+                    <li class="list-group-item"><a href="">Vestes</a> </li>
+                    <li class="list-group-item"><a href="">Jupes</a> </li>
+
+                  
+                </ul>
+            </div>
+            <!-- Articles -->
+            <div class="col-md-9">
+                <div class="row">
+                    <div class="col-sm-4 bloc-produit" data-categorie="Robes" data-sex="Femme">
+                        <div class="card">
+                            <a href="robe.html"><img src="img/robe-detail/1.webp" class="card-img-top"
+                                    alt="Un produit"></a>
+                            <div class="card-body">
+                                <h5 class="card-title">Robe blanche</h5>
+                                <div class="price-buy d-flex  justify-content-between">
+                                    <p class="card-text">250€</p>
+                                    <a class="panier" href="#">
+                                        <i class="fa-solid fa-basket-shopping"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 bloc-produit" data-categorie="Robes" data-sex="Femme">
+                        <div class="card">
+                            <a href="robe-rose.html"><img src="img/robe-femme/robe-rose1.webp" class="card-img-top"
+                                    alt="Un produit">
+                                <div class="card-body">
+                            </a>
+                            <h5 class="card-title">Robe rose</h5>
+                            <div class="price-buy d-flex  justify-content-between">
+                                <p class="card-text">399.95€</p>
+                                <a class="panier" href="#">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 bloc-produit" data-categorie="Robes" data-sex="Femme">
+                    <div class="card">
+                        <a href="robe-noire.html"><img src="img/robe-femme/robe-noir1.jpeg" class="card-img-top"
+                                alt="Un produit"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Robe noire</h5>
+                            <div class="price-buy d-flex  justify-content-between">
+                                <p class="card-text">219.95€</p>
+                                <a class="panier" href="#">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 bloc-produit" data-categorie="Robes" data-sex="Femme">
+                    <div class="card">
+                        <a href="robe-verte.html"><img src="img/robe-femme/robe-vert1.jpeg" class="card-img-top"
+                                alt="Un produit"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Robe verte</h5>
+                            <div class="price-buy d-flex  justify-content-between">
+                                <p class="card-text">295.00€</p>
+                                <a class="panier" href="#">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 bloc-produit" data-categorie="Robes" data-sex="Femme">
+                    <div class="card">
+                        <a href="robe-chemise.html"><img src="img/robe-femme/robe-chemise2.jpeg" class="card-img-top"
+                                alt="Un produit"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Robe chemise</h5>
+                            <div class="price-buy d-flex  justify-content-between">
+                                <p class="card-text">395€</p>
+                                <a class="panier" href="#">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 bloc-produit" data-categorie="Robes" data-sex="Femme">
+                    <div class="card">
+                        <a href="robe-bleue.html"><img src="img/robe-femme/robe-bleue1.jpeg" class="card-img-top"
+                                alt="robe bleue"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Robe bleue</h5>
+                            <div class="price-buy d-flex  justify-content-between">
+                                <p class="card-text">695.95€</p>
+                                <a class="panier" href="">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 bloc-produit" data-categorie="Vestes" data-sex="Femme">
+                    <div class="card">
+                        <a href="veste-verte.html"><img src="img/veste-femme/vert1.jpeg" class="card-img-top"
+                                alt="veste"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Veste verte</h5>
+                            <div class="price-buy d-flex  justify-content-between">
+                                <p class="card-text">950€</p>
+                                <a class="panier" href="#">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-4 bloc-produit" data-categorie="Vestes" data-sex="Femme">
+                    <div class="card">
+                        <a href="veste-noire.html"><img src="img/veste-femme/noir2.jpeg" class="card-img-top"
+                                alt="veste"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Veste noire</h5>
+                            <div class="price-buy d-flex  justify-content-between">
+                                <p class="card-text">329.95€</p>
+                                <a class="panier" href="">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 bloc-produit" data-categorie="Vestes" data-sex="Femme">
+                    <div class="card">
+                        <a href="veste-monogram.html"><img src="img/veste-femme/monogram2.jpeg" class="card-img-top"
+                                alt="veste"></a>
+                        <div class="card-body">
+                            <h5 class="card-title">Veste monograme</h5>
+                            <div class="price-buy d-flex  justify-content-between">
+                                <p class="card-text">685€</p>
+                                <a class="panier" href="#">
+                                    <i class="fa-solid fa-basket-shopping"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 bloc-produit" data-categorie="Vestes" data-sex="Femme">
+                    <div class="card">
+                        <a href="veste-camel.html"><img src="img/veste-femme/camel2.jpeg" class="card-img-top"
+                                alt="Un produit">
+                            <div class="card-body">
+                        </a>
+                        <h5 class="card-title">Veste Camel</h5>
+                        <div class="price-buy d-flex  justify-content-between">
+                            <p class="card-text">250 €</p>
+                            <a class="panier" href="">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4 bloc-produit" data-categorie="Vestes" data-sex="Femme">
+                <div class="card">
+                    <a href="veste-taupe.html"><img src="img/veste-femme/taupe2.webp" class="card-img-top"
+                            alt="Un produit">
+                        <div class="card-body">
+                    </a>
+                    <h5 class="card-title">Veste en cuir</h5>
+                    <div class="price-buy d-flex  justify-content-between">
+                        <p class="card-text">649,95 €</p>
+                        <a class="panier" href="">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 bloc-produit" data-categorie="Vestes" data-sex="Femme">
+            <div class="card">
+                <a href="veste-violet.html"><img src="img/veste-femme/violet2.webp" class="card-img-top"
+                        alt="Un produit"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Veste violet</h5>
+                    <div class="price-buy d-flex  justify-content-between">
+                        <p class="card-text">394,95 €</p>
+                        <a class="panier" href="">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 bloc-produit" data-categorie="Jupes" data-sex="Femme">
+            <div class="card">
+                <a href="jupe-bordeaux.html"><img src="img/jupe-femme/jupe-trapeze1.webp" class="card-img-top"
+                        alt="Un produit"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Jupe trapèze</h5>
+                    <div class="price-buy d-flex  justify-content-between">
+                        <p class="card-text">35,99 €</p>
+                        <a class="panier" href="">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 bloc-produit" data-categorie="Jupes" data-sex="Femme">
+            <div class="card">
+                <a href="jupe-beige.html"><img src="img/jupe-femme/jupe-longue.webp" class="card-img-top"
+                        alt="Un produit"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Jupe longue</h5>
+                    <div class="price-buy d-flex  justify-content-between">
+                        <p class="card-text">29,99 €
+                        </p>
+                        <a class="panier" href="">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 bloc-produit" data-categorie="Jupes" data-sex="Femme">
+            <div class="card">
+                <a href="jupe-mini.html"><img src="img/jupe-femme/jupe-mini.webp" class="card-img-top"
+                        alt="Un produit"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Mini jupe</h5>
+                    <div class="price-buy d-flex  justify-content-between">
+                        <p class="card-text">
+                            129,95 €
+                        </p>
+                        <a class="panier" href="">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 bloc-produit" data-categorie="Jupes" data-sex="Femme">
+            <div class="card">
+                <a href="jupe-portefeuille.html"><img src="img/jupe-femme/jupe-portefeuille.webp" class="card-img-top"
+                        alt="Un produit"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Jupe portefeuille</h5>
+                    <div class="price-buy d-flex  justify-content-between">
+                        <p class="card-text">49,99 €</p>
+                        <a class="panier" href="#">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 bloc-produit" data-categorie="Jupes" data-sex="Femme">
+            <div class="card">
+                <a href="jupe-orange.html"><img src="img/jupe-femme/jupe-orange.webp" class="card-img-top"
+                        alt="Un produit"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Jupe trapèze</h5>
+                    <div class="price-buy d-flex  justify-content-between">
+                        <p class="card-text">39,99 €</p>
+                        <a class="panier" href="#">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4 bloc-produit" data-categorie="Jupes" data-sex="Femme">
+            <div class="card">
+                <a href="jupe-crayon.html"><img src="img/jupe-femme/jupe-crayon.webp" class="card-img-top"
+                        alt="Un produit"></a>
+                <div class="card-body">
+                    <h5 class="card-title">Jupe crayon</h5>
+                    <div class="price-buy d-flex  justify-content-between">
+                        <p class="card-text">35,99 €
+
+                        </p>
+                        <a class="panier" href="#">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
+
+    <!-- Footer -->
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- logo & social media -->
+                <div class="col-12 col-md-4 text-center mt-2">
+                    <img class="img-fluid" src="img/logo.png" height="120px" width="120px" alt="logo">
+                    <p>Suivez-nous</p>
+                    <div class="social-icon">
+                        <a href="#"><i class="fa-brands fa-facebook fa-2xl me-3"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram fa-2xl me-3"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter fa-2xl "></i></a>
+                    </div>
+                </div>
+
+                <!-- Service Client -->
+                <div class="col-12 col-md-4 my-4 d-flex justify-content-center">
+                    <div class="service-client">
+                        <h5>Service Client</h5>
+                        <a href="contact.html">Contact</a><br>
+                        <a href="mentions-légales.html">Mention Légales</a><br>
+                        <a href="cgv.html">Conditions Générale de Vente</a><br>
+                        <a href="plan-du-site.html">Plan du Site</a><br>
+                        <a id="impression" name="impresion" type="button" onclick="imprimer_page()"
+                            value="Imprimer cette page" href="#">Imprimer la page</a>
+                    </div>
+                </div>
+
+                <!-- Newsletter -->
+                <div class="col-12 col-md-4 my-4">
+                    <div class="newsletter">
+                        <h5>INSCRIVEZ-VOUS À NOTRE NEWSLETTER</h5>
+                        <input type="text" placeholder="Votre adresse mail"><br>
+                        <button type="button" class="btn mt-3">Valider</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script type="text/javascript">
+        function imprimer_page() {
+            window.print();
+        }
+    </script>
+    <script src="js/femme.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

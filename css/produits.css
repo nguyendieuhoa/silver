@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar {
+    background-color: #B37B58;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(225,203,189,1) 0%, rgba(179,123,88,1) 68%);
+    
+}
+
+.ms-5 {
+    margin-left: 5rem!important;
+}
+
+.nav-icon {
+    color: #423F3F;
+}
+
+.nav-link {
+    color: #423F3F;
+
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: #B37B58 ;
+}
+
+.produit .btn {
+    background: linear-gradient(45deg, rgba(224,125,58,1) 61%, rgba(255,255,255,1) 100%);
+    border: none;
+}
+
+.produit a {
+    text-decoration: none;
+    color: black;
+}
+
+.produit a:hover{
+    color: rgba(224,125,58,1);
+}
+.categories {
+    background-color: #B37B58;
+}
+
+.card {
+    border: none;
+}
+
+.card img {
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+}
+
+.card-img-top:hover {
+    transform: scale(1.03, 1.03);
+    opacity: 1;
+}
+
+.footer {
+    background-color: #B37B58;
+}
+
+.social-icon {
+    justify-content: center;
+}
+
+.social-icon a .fa-brands {
+    color: black;
+}
+
+.service-client a {
+    text-decoration: none;
+    color: #423F3F;
+}
+
+.service-client a:hover {
+    color:black
+}
+
+.newsletter input {
+    border: none;
+    border-bottom: 1px solid #423F3F ;
+    background-color: transparent;
+    width: 18rem;
+    padding-left: 2px;
+}
+
+.newsletter button {
+    background: rgb(224,125,58);
+background: linear-gradient(45deg, rgba(224,125,58,1) 61%, rgba(255,255,255,1) 100%);
+}
+
+
+
+

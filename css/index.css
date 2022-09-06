@@ -1,0 +1,255 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@400;500&family=Noto+Serif+HK&family=Oswald:wght@500&family=Teko&display=swap');
+
+* {
+    font-family: 'Mukta', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    padding-top: 60px;
+}
+
+
+.navbar {
+    background-color: #B37B58;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(225,203,189,1) 0%, rgba(179,123,88,1) 68%);
+}
+.nav-icon {
+    color: #423F3F;
+}
+
+.nav-link {
+    color: #423F3F;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: #B37B58 ;
+}
+
+header{
+    background-image: url("../img/banner-silver3.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}   
+
+h1 {
+    font-family: 'Teko', sans-serif;
+    color: #423F3F;
+    font-size: 8rem;
+}
+
+.banner {
+    margin-top: 40px;
+ 
+}
+
+.banner-content {
+   
+    padding-top: 60px;
+    
+}
+
+.banner-content h2 {
+    color: #423F3F;
+    font-family: 'Teko', sans-serif;
+    font-size: 4rem ;
+    text-decoration: underline;
+}
+
+.banner-content p {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #F1C7A7;
+    letter-spacing: 2px;
+    margin-left: 80px;
+}
+
+.banner-content .btn {
+    color: whitesmoke;
+    background: linear-gradient(45deg, rgba(224,125,58,1) 61%, rgba(255,255,255,1) 100%);
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+@media (max-width: 576px) {
+    .banner-content {
+        text-align: center;
+        margin-right: 3rem;
+        /* margin-top: 6rem; */
+    }
+    .banner-content h1 {
+        font-size: 5rem;
+    }
+    .banner-content p {
+        color: #423F3F;
+        margin: 3rem auto;
+    }
+}
+
+
+.categorie .btn {
+    color: whitesmoke;
+    background: rgb(224,125,58);
+    background: linear-gradient(45deg, rgba(224,125,58,1) 61%, rgba(255,255,255,1) 100%);
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 20px;
+}
+
+#categorie {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(236,221,212,1) 100%);  
+}
+
+.divider {
+    width: 100px;
+    margin: auto;
+}
+
+.tendance {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(219,192,175,1) 84%, rgba(210,179,159,1) 100%);
+}
+
+.tendance h2 {
+    letter-spacing: 2px;
+}
+
+.tendance-article .btn {
+    color: whitesmoke;
+    background: rgb(224,125,58);
+    background: linear-gradient(45deg, rgba(224,125,58,1) 61%, rgba(255,255,255,1) 100%);;
+    padding: 5px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+.tendance-femme {
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.tendance-homme {
+    align-items: center;
+}
+
+.nos-selections {
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(219,192,175,1) 84%, rgba(210,179,159,1) 100%);
+}
+.card {
+    border: none;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+
+
+.nos-selections h2 {
+    letter-spacing: 4px;
+}
+
+.voir-tout {
+   color: #423F3F;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.voir-tout:hover {
+    color: #B37B58;
+}
+
+.panier {
+    color: #423F3F;
+}
+
+.panier:hover {
+    color: black;
+}
+
+.card-img-top {
+    transition: all 0.3s ease-out;
+    border-radius: 10px;
+}
+
+.card-img-top:hover {
+  
+    transform: scale(0.8, 0.8);
+    opacity: 1;
+    ;
+}
+
+.avis h2 {
+    letter-spacing: 2px;
+}
+
+
+.carousel-caption {
+    color: #423F3F;
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: #423F3F;
+}
+
+.avis {
+    background: linear-gradient(0deg, rgba(255,255,255,1) 67%, rgba(255,248,244,1) 100%, rgba(255,255,255,1) 100%);
+}
+
+.footer {
+    background-color: #B37B58;
+}
+
+.social-icon {
+    justify-content: center;
+}
+
+.social-icon a .fa-brands {
+    color: black;
+}
+
+.service-client a {
+    text-decoration: none;
+    color: #423F3F;
+}
+
+.service-client a:hover {
+    color:black
+}
+
+.newsletter input {
+    border: none;
+    border-bottom: 1px solid #423F3F ;
+    background-color: transparent;
+    width: 18rem;
+    padding-left: 2px;
+}
+
+.newsletter button {
+    background: rgb(224,125,58);
+background: linear-gradient(45deg, rgba(224,125,58,1) 61%, rgba(255,255,255,1) 100%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
